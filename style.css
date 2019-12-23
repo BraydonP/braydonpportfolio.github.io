@@ -229,7 +229,7 @@ body {
   text-decoration: none;
   font-size: inherit;
   font-family: inherit;
-  &.learn-more {
+  &.↓ {
     font-weight: 600;
     color: $text;
     text-transform: uppercase;
