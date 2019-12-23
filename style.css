@@ -187,7 +187,6 @@ img {
   background-color: var(--main-gray);
   border-radius: 50%;
   display: inline-block;
-  border: var(--main-gray);
 }
 
 /* Projects section */
