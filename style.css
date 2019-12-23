@@ -181,6 +181,13 @@ img {
   text-align: center;
   font-size: 4.2rem;
 }
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: var(--main-gray-);
+  border-radius: 50%;
+  display: inline-block;
+}
 
 /* Projects section */
 
