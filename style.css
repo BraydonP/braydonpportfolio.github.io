@@ -186,7 +186,7 @@ img {
   width: auto;
   background-color: var(--main-gray);
   border-radius: 50%;
-  overflow: auto
+  overflow: auto;
   display: inline-block;
   padding: 10px;
 }
