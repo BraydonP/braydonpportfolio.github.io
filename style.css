@@ -221,7 +221,7 @@ body {
   background: $bg;
 }
 
-.button {
+button {
   position: relative;
   display: inline-block;
   cursor: pointer;
