@@ -184,9 +184,10 @@ img {
 .dot {
   height: 25px;
   width: 25px;
-  background-color: var(--main-gray-);
+  background-color: var(--main-gray);
   border-radius: 50%;
   display: inline-block;
+  border: var(--main-gray);
 }
 
 /* Projects section */
