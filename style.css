@@ -6,6 +6,8 @@
   --main-gray: #303841;
   --main-purple: #4b0082;
   --neon-purple: #ad3bee;
+  --light-purple: #BA55D3;
+  --fuchsia: #FF00FF;
 }
 
 /* Base reset */
@@ -99,7 +101,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--neon-purple);
+  color: var(--fuchsia);
 }
 
 img {
@@ -222,7 +224,7 @@ img {
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
-  background: var(--neon-purple);
+  background: var(--light-purple);
 }
 
 .projects-section-header {
