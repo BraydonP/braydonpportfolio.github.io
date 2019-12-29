@@ -123,6 +123,13 @@ img {
   z-index: 10;
 }
 
+.img-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 4%;
+}
+
 .nav-list {
   display: flex;
   margin-right: 2rem;
