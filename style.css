@@ -150,7 +150,7 @@ img {
 
 /* Style the img nav */
 .top-left {
-  align-items: left;
+  align: right;
   width: 10%;
 }
 
