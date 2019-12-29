@@ -180,6 +180,7 @@ img {
 .img-circle {
   border-radius: 45%;
   width: auto;
+  height: auto;
   padding: 20px;
   overflow: auto;
   color: var(--main-gray);
