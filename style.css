@@ -148,6 +148,12 @@ img {
   background: var(--main-blue);
 }
 
+/* Style the img nav */
+.top-left {
+  align-items: left;
+  width: auto;
+}
+
 /* Welcome section */
 
 .welcome-section {
