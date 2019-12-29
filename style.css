@@ -178,7 +178,7 @@ img {
   padding: 10px;
 }
 .img-circle {
-  border-radius: 50%;
+  border-radius: 45%;
   width: auto;
   padding: 20px;
   overflow: auto;
@@ -190,15 +190,6 @@ img {
   font-weight: 700;
   text-align: center;
   font-size: 4.2rem;
-}
-.dot {
-  height: auto;
-  width: auto;
-  background-color: var(--main-gray);
-  border-radius: 50%;
-  overflow: auto;
-  display: inline-block;
-  padding: 10px;
 }
 .btn {
   display: inline-block;
