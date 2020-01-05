@@ -123,6 +123,13 @@ img {
   z-index: 10;
 }
 
+.img-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 4%;
+}
+
 .nav-list {
   display: flex;
   margin-right: 2rem;
@@ -171,8 +178,9 @@ img {
   padding: 10px;
 }
 .img-circle {
-  border-radius: 50%;
+  border-radius: 45%;
   width: auto;
+  height: auto;
   padding: 20px;
   overflow: auto;
   color: var(--main-gray);
@@ -183,15 +191,6 @@ img {
   font-weight: 700;
   text-align: center;
   font-size: 4.2rem;
-}
-.dot {
-  height: auto;
-  width: auto;
-  background-color: var(--main-gray);
-  border-radius: 50%;
-  overflow: auto;
-  display: inline-block;
-  padding: 10px;
 }
 .btn {
   display: inline-block;
