@@ -114,7 +114,7 @@ img {
 .nav {
   display: flex;
   justify-content: flex-end;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
