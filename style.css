@@ -150,10 +150,11 @@ img {
   display: block;
   font-size: 2.2rem;
   padding: 2rem;
+  font-color: var(--fuchsia);
 }
 
 .nav-list a:hover {
-  background: var(--main-blue);
+  background: var(--main-white);
 }
 
 
@@ -197,7 +198,7 @@ img {
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  border-radius: 2px;
+  border-radius: 0px;
 }
 
 .btn-show-all {
