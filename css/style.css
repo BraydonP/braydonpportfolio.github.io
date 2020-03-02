@@ -276,7 +276,7 @@ img {
 }
 
 .project:hover .code {
-  color: #ff7f50;
+  color: var(--main-white);
 }
 
 .project-image {
@@ -303,7 +303,7 @@ img {
 }
 
 .btn-show-all:hover {
-  background: var(--main-red);
+  background: var(--main-white);
 }
 
 .btn-show-all:hover > i {
