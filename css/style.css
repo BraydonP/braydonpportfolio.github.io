@@ -198,27 +198,22 @@ img {
   text-align: center;
   font-size: 4.2rem;
 }
-.btn {
-  display: inline-block;
-  padding: 1rem 2rem;
-  border-radius: 0px;
-}
 
-.btn-show-all {
-  font-size: 2rem;
+.btn-go-down {
+  font-size: 4rem;
   background: var(--main-gray);
   transition: background 0.3s ease-out;
 }
 
-.btn-show-all:hover {
+.btn-go-down:hover {
   background: var(--main-purple);
 }
 
-.btn-show-all:hover > i {
+.btn-go-down:hover>p {
   transform: translateX(2px);
 }
 
-.btn-show-all > i {
+.btn-go-down>p {
   margin-left: 10px;
   transform: translateX(0);
   transition: transform 0.3s ease-out;
@@ -295,7 +290,7 @@ img {
 
 .btn {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   border-radius: 2px;
 }
 
