@@ -210,12 +210,12 @@ img {
 }
 
 .btn-go-down:hover>p {
-  transform: translateX(2px);
+  transform: translateY(2px);
 }
 
 .btn-go-down>p {
-  margin-left: 10px;
-  transform: translateX(0);
+  margin-left: 2.5px;
+  transform: translateY(0);
   transition: transform 0.3s ease-out;
 }
 
