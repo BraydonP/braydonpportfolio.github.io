@@ -201,6 +201,7 @@ img {
 
 .btn-go-down {
   font-size: 4rem;
+  display: block;
   background: var(--main-gray);
   transition: background 0.3s ease-out;
 }
