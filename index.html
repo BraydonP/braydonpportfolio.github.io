@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="Description" content="Braydon P PORTFOLIO.">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="canonical" href="https://BraydonP.github.io/Braydonp.github.io/" />
+
   <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
   <link rel="shortcut icon" href="bug.ico" type="image/x-icon">
@@ -183,6 +185,11 @@
       <!-- END FOOTER SECTION -->
       <!-- partial -->
       <script src="js/script.js"></script>
+      <script>
+        if (navigator.serviceWorker) {
+        navigator.serviceWorker.register('/Braydonp.github.io/js/sw.js', {scope: '/Braydonp.github.io/'})
+        }
+      </script>
       <script src="js/sw.js"></script>
 </body>
 
