@@ -4,12 +4,12 @@
   --main-red: #93080F;
   --main-blue: #45567d;
   --main-gray: #303841;
-  --main-purple: #4b0082;
+  --main-purple: #7600a8;
   --neon-purple: #ad3bee;
   --light-purple: #BA55D3;
   --fuchsia: #FF00FF;
   --main-yellow: #f8d568;
-  --cyan: #68f8d5;
+  --cyan: #00ffff;
   --gray: #a9a9a9;
   --X11: #BEBEBE;
 }
@@ -130,7 +130,7 @@ img {
   left: 0;
   width: 100%;
   height: auto;
-  background: var(--main-red);
+  background: var(--main-purple);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
@@ -377,7 +377,7 @@ footer {
   justify-content: space-evenly;
   padding: 2rem;
   background: var(--main-gray);
-  border-top: 4px solid var(--main-red);
+  border-top: 4px solid var(--main-purple);
 }
 
 footer > p {
