@@ -1,7 +1,7 @@
 /* Custom properties/variables  */
 :root {
   --main-white: #f0f0f0;
-  --main-red: #93080F;
+  --main-red: #be3144;
   --main-blue: #45567d;
   --main-gray: #303841;
   --main-purple: #7600a8;
@@ -164,7 +164,7 @@ img {
 }
 
 .nav-list a:hover {
-  background: var(--main-purple);
+  background: var(--main-red);
 }
 
 
