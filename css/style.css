@@ -82,6 +82,10 @@ html {
   font-display: swap;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
+
 /* Base styles */
 
 body {
