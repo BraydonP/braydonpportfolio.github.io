@@ -194,10 +194,13 @@ img {
   padding: 10px;
 }
 .img-circle {
-  border-radius: 45%;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
   vertical-align: middle;
-  width: auto;
-  height: auto;
+  width: 200px;
+  height: 800px;
   padding: auto;
   overflow: auto;
   color: var(--main-gray);
