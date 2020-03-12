@@ -1,3 +1,3 @@
-# braydonpportfolio.github.io
+# braydonp.github.io
 Index.html = Home Page
  
