@@ -198,13 +198,12 @@ img {
   border-bottom-left-radius: 50% 50%;
   width: auto;
   height: auto;
-  overflow: auto;
+  overflow: hidden;
   color: var(--main-gray);
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .grid-container {
