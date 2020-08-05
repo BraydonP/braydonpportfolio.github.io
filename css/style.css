@@ -79,8 +79,7 @@ html {
   font-style: normal;
   font-weight: 400;
   src: local("Pacifico Regular"), local("Pacifico-Regular"),
-    url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2)
-      format("woff2");
+    url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format("woff2");
   font-display: swap;
 }
 
@@ -178,13 +177,13 @@ img {
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 100vh;
+  height: auto;
   background-color: #000;
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
   text-align: center;
 }
 
-.welcome-section > p {
+.welcome-section>p {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
@@ -204,13 +203,14 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .grid-container {
   display: grid;
   padding: auto;
-  overflow: auto;
+  overflow: hidden;
   grid-template-columns: auto auto auto;
 }
 
@@ -218,10 +218,10 @@ img {
   width: auto;
   height: auto;
   padding: 40px;
-  overflow: auto;
+  overflow: hidden;
 }
 
-.welcome-section > h2 {
+.welcome-section>h2 {
   color: var(--main-purple);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -240,11 +240,11 @@ img {
   background: var(--main-purple);
 }
 
-.btn-go-down:hover > p {
+.btn-go-down:hover>p {
   transform: translateY(2px);
 }
 
-.btn-go-down > p {
+.btn-go-down>p {
   margin-left: 2.5px;
   transform: translateY(0);
   transition: transform 0.3s ease-out;
@@ -333,11 +333,11 @@ img {
   background: var(--main-purple);
 }
 
-.btn-show-all:hover > i {
+.btn-show-all:hover>i {
   transform: translateX(2px);
 }
 
-.btn-show-all > i {
+.btn-show-all>i {
   margin-left: 10px;
   transform: translateX(0);
   transition: transform 0.3s ease-out;
@@ -357,17 +357,17 @@ img {
   background: var(--main-gray);
 }
 
-.contact-section-header > h2 {
+.contact-section-header>h2 {
   font-size: 6rem;
 }
 
 @media (max-width: 28.75em) {
-  .contact-section-header > h2 {
+  .contact-section-header>h2 {
     font-size: 4rem;
   }
 }
 
-.contact-section-header > p {
+.contact-section-header>p {
   font-style: italic;
 }
 
@@ -401,7 +401,7 @@ footer {
   border-top: 4px solid var(--main-purple);
 }
 
-footer > p {
+footer>p {
   margin: 2rem;
 }
 
