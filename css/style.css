@@ -87,7 +87,8 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 1.8rem; /* 18px */
+  font-size: 1.8rem;
+  /* 18px */
   font-weight: 400;
   line-height: 1.4;
   color: var(--main-white);
@@ -183,26 +184,39 @@ img {
   text-align: center;
 }
 
-.welcome-section > p {
+.welcome-section>p {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
   color: var(--main-white);
   padding: 10px;
 }
+
 .img-circle {
   border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
-  vertical-align: middle;
   width: 151px;
   height: 185px;
-  padding: auto;
-  overflow: auto;
   color: var(--main-gray);
 }
-.welcome-section > h2 {
+
+.grid-container {
+  display: grid;
+  padding: auto;
+  overflow: auto;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  width: auto;
+  height: auto;
+  padding: 40px;
+  overflow: auto;
+}
+
+.welcome-section>h2 {
   color: var(--main-purple);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -316,11 +330,11 @@ img {
   background: var(--main-purple);
 }
 
-.btn-show-all:hover > i {
+.btn-show-all:hover>i {
   transform: translateX(2px);
 }
 
-.btn-show-all > i {
+.btn-show-all>i {
   margin-left: 10px;
   transform: translateX(0);
   transition: transform 0.3s ease-out;
@@ -340,17 +354,17 @@ img {
   background: var(--main-gray);
 }
 
-.contact-section-header > h2 {
+.contact-section-header>h2 {
   font-size: 6rem;
 }
 
 @media (max-width: 28.75em) {
-  .contact-section-header > h2 {
+  .contact-section-header>h2 {
     font-size: 4rem;
   }
 }
 
-.contact-section-header > p {
+.contact-section-header>p {
   font-style: italic;
 }
 
@@ -384,7 +398,7 @@ footer {
   border-top: 4px solid var(--main-purple);
 }
 
-footer > p {
+footer>p {
   margin: 2rem;
 }
 
