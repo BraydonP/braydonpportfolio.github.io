@@ -178,8 +178,8 @@ img {
   align-items: center;
   width: auto;
   height: auto;
-  background-color: #000;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  background-color: #303235;
+  background-image: #303235;
   text-align: center;
 }
 
