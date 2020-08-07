@@ -176,15 +176,16 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: left;
   width: auto;
   height: auto;
-  background-color: #000;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  background-color: #303235;
+  background-image: #303235;
   text-align: center;
 }
 
 .welcome-section>p {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 200;
   font-style: italic;
   color: var(--main-white);
@@ -202,8 +203,8 @@ img {
   color: var(--main-gray);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .grid-container {
@@ -229,7 +230,7 @@ img {
 }
 
 .btn-go-down {
-  font-size: 4rem;
+  font-size: 3.5rem;
   display: block;
   background: var(--main-gray);
   transition: background 0.3s ease-out;
